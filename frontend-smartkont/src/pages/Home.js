@@ -1,8 +1,6 @@
 import React, { useState } from "react";
 import { IconButton, TextField, Box, Tabs, Tab, Divider } from "@mui/material";
 import CloseIcon from "@mui/icons-material/Close";
-import BottomAppBar from "../core/AppBar";
-import AddIcon from "@mui/icons-material/Add";
 import SearchIcon from '@mui/icons-material/Search';
 import Loader from "../core/Loader";
 
@@ -33,7 +31,6 @@ function Home() {
 // 
   return (
     <>
-      <BottomAppBar />
       {/**
        * --------------------------------------------------------
        */}
@@ -67,15 +64,6 @@ function Home() {
           onClick={handleSearch}
         >
           <SearchIcon />
-        </IconButton>
-        <IconButton
-          sx={{
-            borderRadius: 10,
-            background: "#82ad61",
-            color: "#fff",
-          }}
-        >
-          <AddIcon />
         </IconButton>
       </Box>
       {/**

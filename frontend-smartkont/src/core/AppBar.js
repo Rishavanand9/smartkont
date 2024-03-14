@@ -7,7 +7,7 @@ import MenuItem from "@mui/material/MenuItem";
 import MoreIcon from "@mui/icons-material/MoreVert";
 import { Avatar, Box, Typography } from "@mui/material";
 
-export default function BottomAppBar() {
+export default function TopAppBar() {
   const [anchorEl, setAnchorEl] = useState(null);
 
   const handleMenuClick = (event) => {
